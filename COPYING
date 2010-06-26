@@ -1,14 +1,14 @@
-This file is part of Spatter 1.x, Copyright (C) 2008 Untyped Ltd.
+This file is part of Splatter, Copyright (C) 2008 Untyped Ltd.
 
-Spatter 1.x is free software: you can redistribute it and/or modify
+Splatter is free software: you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as 
 published by the Free Software Foundation, either version 3 of 
 the License, or (at your option) any later version.
 
-Spatter is distributed in the hope that it will be useful,
+Splatter is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU Lesser General Public License for more details.
 
 You should have received a copy of the GNU Lesser General Public 
-License along with Spatter. If not, see <http://www.gnu.org/licenses/>.
+License along with Splatter. If not, see <http://www.gnu.org/licenses/>.
