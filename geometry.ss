@@ -1,8 +1,6 @@
-#lang mzscheme
+#lang scheme
 
-(require
- (lib "gl-vectors.ss" "sgl"))
-
+(require sgl/gl-vectors)
 
 ;; Structures to represent basic shapes, so we can program
 ;; interesting effects over these shapes.  Will require a
@@ -36,4 +34,4 @@
 (define-struct triangle (p0 p1 p2))
 
 (provide
- (all-defined))
+ (all-defined-out))

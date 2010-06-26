@@ -1,7 +1,6 @@
-#lang mzscheme
+#lang scheme
 
-(require
- (file "geometry.ss"))
+(require "geometry.ss")
 
 ;; Various effects on shapes.
 

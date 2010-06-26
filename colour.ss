@@ -1,10 +1,7 @@
-#lang mzscheme
-
-(require
- (lib "plt-match.ss"))
+#lang scheme
 
 ;; struct color : [0, 360) [0, 1] [0, 1] [0, 1]
-(define-struct colour (h s l a) #f)
+(define-struct colour (h s l a) #:transparent)
 
 (define (in-range? x l h)
   (and (<= l x) (<= x h)))

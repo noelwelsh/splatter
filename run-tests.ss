@@ -1,5 +1,7 @@
-(require (planet "test.ss" ("schematics" "schemeunit.plt" 2)))
-(require (planet "text-ui.ss" ("schematics" "schemeunit.plt" 2)))
-(require "all-spatter-tests.ss")
+#lang scheme
 
-(test/text-ui all-spatter-tests)
+(require (planet schematics/schemeunit:3/test)
+         (planet schematics/schemeunit:3/text-ui)
+         "all-spatter-tests.ss")
+
+(run-tests all-spatter-tests)
