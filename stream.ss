@@ -1,11 +1,10 @@
-#lang mzscheme
+#lang scheme
 
-(require
- (lib "stream.ss" "srfi" "40")
- (planet "stream.ss" ("dherman" "stream.plt" 1))
- (planet "random-distributions/gaussian.ss" ("williams" "science.plt" 2))
- (planet "random-distributions/discrete.ss" ("williams" "science.plt" 2))
- (planet "random-source.ss" ("williams" "science.plt" 2)))
+(require srfi/40/stream
+         (planet dherman/stream:1/stream)
+         (planet williams/science:2/random-distributions/discrete)
+         (planet williams/science:2/random-distributions/gaussian)
+         (planet williams/science:2/random-source))
 
 (define naturals
   (stream-cons 0 (stream-map add1 naturals)))
@@ -41,7 +40,7 @@
  naturals
  fibonaccis
  gaussians
-
+ 
  make-uniform-ints
  make-gaussians
  make-uniform-discretes)

@@ -1,20 +1,12 @@
-(module effects-test mzscheme
-  
-  (require (planet "test.ss" ("schematics" "schemeunit.plt" 2)))
-  (require "effects.ss")
-  
-  (provide effects-tests)
-  
-  (define effects-tests
-    (test-suite
-     "All tests for effects"
+#lang scheme
 
-     (test-case
-      "quad->grid"
-      (fail "Not implemented"))
+(require (planet schematics/schemeunit:3/test)
+         "effects.ss")
 
-     (test-case
-      "quad->strip"
-      (fail "Not implemented"))
-     ))
-  )
+(define/provide-test-suite effects-tests
+  
+  (test-case "quad->grid"
+    (fail "Not implemented"))
+  
+  (test-case "quad->strip"
+    (fail "Not implemented")))

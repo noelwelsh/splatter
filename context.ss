@@ -1,4 +1,4 @@
-#lang mzscheme
+#lang scheme
 
 ;; struct state : colour symbol
 (define-struct context (colour shape))

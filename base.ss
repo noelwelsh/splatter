@@ -1,6 +1,6 @@
-#lang mzscheme
+#lang scheme
 
 (define-struct (exn:fail:spatter exn) ())
 
 (provide
- (all-defined))
+ (all-defined-out))
